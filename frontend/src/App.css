@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  font-family: Consolas, 'Courier New', monospace;
+  background-color: #1e1e1e;
+  color: #d4d4d4;
+}
+
+.App-header {
+  background-color: #252526;
+  padding: 20px;
+  text-align: center;
+  font-size: 24px;
+  border-bottom: 1px solid #333;
+}
+
+.log-container {
+  padding: 20px;
+}
+
+.log-entry {
+  display: flex;
+  align-items: baseline;
+  padding: 8px;
+  border-bottom: 1px solid #333;
+  font-size: 14px;
+}
+
+.log-timestamp {
+  color: #6a9955; /* Green */
+  margin-right: 15px;
+  min-width: 220px;
+}
+
+.log-level {
+  margin-right: 15px;
+  font-weight: bold;
+  min-width: 60px;
+  text-transform: uppercase;
+}
+
+.log-level-info { color: #9cdcfe; } /* Blue */
+.log-level-error { color: #f44747; } /* Red */
+.log-level-warn { color: #ce9178; } /* Orange */
+
+.log-service {
+  color: #c586c0; /* Purple */
+  margin-right: 15px;
+  font-weight: bold;
+  min-width: 150px;
+}
+
+.log-message {
+  color: #d4d4d4;
+}
