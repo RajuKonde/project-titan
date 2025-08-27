@@ -1,0 +1,13 @@
+# Ignore Git and CI/CD specific files
+.git
+.github
+README.md
+
+# Ignore the entire frontend project for this backend build
+frontend/
+
+# Ignore IDE and OS files
+.idea/
+.vscode/
+*.iml
+.DS_Store
